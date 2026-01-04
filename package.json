@@ -1,0 +1,19 @@
+{
+  "name": "litiobyte_test",
+  "version": "1.0.0",
+  "description": "Desafío técnico enviado por LitioByte.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlayerCodeDev/litiobyte_test.git"
+  },
+  "author": "Carlos Ramírez",
+  "bugs": {
+    "url": "https://github.com/PlayerCodeDev/litiobyte_test/issues"
+  },
+  "homepage": "https://github.com/PlayerCodeDev/litiobyte_test#readme"
+}
