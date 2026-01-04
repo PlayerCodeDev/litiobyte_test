@@ -7,190 +7,69 @@
   },
   { "order_id": "A1", "amount": 1000, "currency": "CLP", "date": "10-01-2024" },
   { "order_id": "B2", "amount": -200, "currency": "USD", "date": null },
+
   { "order_id": "C3", "amount": null, "currency": "CLP", "date": "2024-02-01" },
   {
     "order_id": "D4",
     "amount": "abc",
     "currency": "USD",
-    "date": "2024-02-05"
+    "date": "01-02-2024"
   },
-  { "order_id": "E5", "amount": "", "currency": "CLP", "date": "2024-02-10" },
+  { "order_id": "E5", "amount": "", "currency": "CLP", "date": "" },
   {
     "order_id": "F6",
     "amount": "500",
-    "currency": "CLP",
-    "date": "2024-02-12"
-  },
-  { "order_id": "G7", "amount": 750, "currency": "USD", "date": "2024-02-15" },
-  { "order_id": "H8", "amount": -50, "currency": "CLP", "date": "2024-02-18" },
-  {
-    "order_id": "I9",
-    "amount": "12ab",
     "currency": "USD",
-    "date": "2024-02-20"
+    "date": "2024-02-15"
   },
+  { "order_id": "G7", "amount": 750, "currency": "CLP", "date": "15-02-2024" },
+  { "order_id": "H8", "amount": -50, "currency": "USD", "date": "2024/02/18" },
 
-  { "order_id": "J10", "amount": null, "currency": "CLP", "date": null },
-  { "order_id": "K11", "amount": "0", "currency": "USD", "date": "2024-03-01" },
-  { "order_id": "L12", "amount": 0, "currency": "CLP", "date": "2024-03-02" },
+  { "order_id": "I9", "amount": "12ab", "currency": "CLP", "date": null },
+  { "order_id": "J10", "amount": 0, "currency": "USD", "date": "2024-03-01" },
+  { "order_id": "K11", "amount": "0", "currency": "CLP", "date": "01-03-2024" },
   {
-    "order_id": "M13",
+    "order_id": "L12",
     "amount": -1000,
     "currency": "USD",
-    "date": "2024-03-03"
+    "date": "2024-13-01"
   },
-  { "order_id": "N14", "amount": "", "currency": "CLP", "date": "2024-03-04" },
-  {
-    "order_id": "O15",
-    "amount": "999",
-    "currency": "USD",
-    "date": "2024-03-05"
-  },
-  { "order_id": "P16", "amount": 350, "currency": "CLP", "date": "2024-03-06" },
-  {
-    "order_id": "Q17",
-    "amount": "abc123",
-    "currency": "USD",
-    "date": "2024-03-07"
-  },
-  {
-    "order_id": "R18",
-    "amount": null,
-    "currency": "CLP",
-    "date": "2024-03-08"
-  },
-  { "order_id": "S19", "amount": -10, "currency": "USD", "date": "2024-03-09" },
+  { "order_id": "M13", "amount": "", "currency": "CLP", "date": "2024-03-05" },
 
+  {
+    "order_id": "N14",
+    "amount": null,
+    "currency": "USD",
+    "date": "05-03-2024"
+  },
+  { "order_id": "O15", "amount": "999", "currency": "CLP", "date": "20240306" },
+  { "order_id": "P16", "amount": 350, "currency": "USD", "date": "2024-03-07" },
+  { "order_id": "Q17", "amount": "xyz", "currency": "CLP", "date": "07-03-24" },
+  { "order_id": "R18", "amount": -10, "currency": "USD", "date": null },
+
+  { "order_id": "S19", "amount": "", "currency": "CLP", "date": "2024-03-09" },
   {
     "order_id": "T20",
     "amount": "4500",
-    "currency": "CLP",
-    "date": "2024-03-10"
+    "currency": "USD",
+    "date": "09-03-2024"
   },
   {
     "order_id": "U21",
+    "amount": null,
+    "currency": "CLP",
+    "date": "invalid-date"
+  },
+  {
+    "order_id": "V22",
     "amount": 4500,
     "currency": "USD",
     "date": "2024-03-11"
   },
-  { "order_id": "V22", "amount": "", "currency": "CLP", "date": "2024-03-12" },
   {
     "order_id": "W23",
-    "amount": "xyz",
-    "currency": "USD",
-    "date": "2024-03-13"
-  },
-  {
-    "order_id": "X24",
-    "amount": -999,
-    "currency": "CLP",
-    "date": "2024-03-14"
-  },
-  {
-    "order_id": "Y25",
-    "amount": null,
-    "currency": "USD",
-    "date": "2024-03-15"
-  },
-  {
-    "order_id": "Z26",
-    "amount": "1500",
-    "currency": "CLP",
-    "date": "2024-03-16"
-  },
-  {
-    "order_id": "A27",
-    "amount": 1500,
-    "currency": "USD",
-    "date": "2024-03-17"
-  },
-  {
-    "order_id": "B28",
     "amount": "15O0",
     "currency": "CLP",
-    "date": "2024-03-18"
-  },
-  { "order_id": "C29", "amount": -1, "currency": "USD", "date": "2024-03-19" },
-
-  { "order_id": "D30", "amount": "", "currency": "CLP", "date": null },
-  {
-    "order_id": "E31",
-    "amount": null,
-    "currency": "USD",
-    "date": "2024-03-21"
-  },
-  {
-    "order_id": "F32",
-    "amount": "700",
-    "currency": "CLP",
-    "date": "2024-03-22"
-  },
-  { "order_id": "G33", "amount": 700, "currency": "USD", "date": "2024-03-23" },
-  {
-    "order_id": "H34",
-    "amount": "seven",
-    "currency": "CLP",
-    "date": "2024-03-24"
-  },
-  {
-    "order_id": "I35",
-    "amount": -700,
-    "currency": "USD",
-    "date": "2024-03-25"
-  },
-  { "order_id": "J36", "amount": "", "currency": "CLP", "date": "2024-03-26" },
-  {
-    "order_id": "K37",
-    "amount": null,
-    "currency": "USD",
-    "date": "2024-03-27"
-  },
-  {
-    "order_id": "L38",
-    "amount": "300",
-    "currency": "CLP",
-    "date": "2024-03-28"
-  },
-  { "order_id": "M39", "amount": 300, "currency": "USD", "date": "2024-03-29" },
-
-  {
-    "order_id": "N40",
-    "amount": -300,
-    "currency": "CLP",
-    "date": "2024-03-30"
-  },
-  {
-    "order_id": "O41",
-    "amount": "30O",
-    "currency": "USD",
-    "date": "2024-03-31"
-  },
-  { "order_id": "P42", "amount": "", "currency": "CLP", "date": "2024-04-01" },
-  {
-    "order_id": "Q43",
-    "amount": null,
-    "currency": "USD",
-    "date": "2024-04-02"
-  },
-  {
-    "order_id": "R44",
-    "amount": "100",
-    "currency": "CLP",
-    "date": "2024-04-03"
-  },
-  { "order_id": "S45", "amount": 100, "currency": "USD", "date": "2024-04-04" },
-  {
-    "order_id": "T46",
-    "amount": -100,
-    "currency": "CLP",
-    "date": "2024-04-05"
-  },
-  {
-    "order_id": "U47",
-    "amount": "abc",
-    "currency": "USD",
-    "date": "2024-04-06"
-  },
-  { "order_id": "V48", "amount": "", "currency": "CLP", "date": "2024-04-07" },
-  { "order_id": "W49", "amount": null, "currency": "USD", "date": "2024-04-08" }
+    "date": "11-03-2024"
+  }
 ]

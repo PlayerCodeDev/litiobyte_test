@@ -1,4 +1,5 @@
 import { normalizeAmount } from '../normalizes/amount.js';
+import { normalizeDate } from '../normalizes/date.js';
 
 /**
  * Procesa una lista de registros de ventas.
@@ -15,7 +16,7 @@ export const processSales = ( sales ) => {
         order_id: order.order_id,
         amount: normalizeAmount(order.amount),
         currency: order.currency,
-        date: order.date,
+        date: normalizeDate(order.date),
       };
 
       validSales.push(normalizedSales);
