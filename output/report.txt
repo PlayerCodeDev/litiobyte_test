@@ -1,0 +1,8 @@
+Total de registros entrantes: 7
+Total de registros aprobados: 3
+Total de registros descartados: 4
+
+Rasones de descartes:
+ - Identificador de la venta faltante o inválida: 1
+ - Venta sin monto asingando o inválido: 2
+ - Registros duplicados: 1

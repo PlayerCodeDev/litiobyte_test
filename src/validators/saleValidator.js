@@ -30,7 +30,7 @@ export const saleValidator = ( order ) => {
   if (order.amount === null || order.amount === undefined || order.amount === '') {
     return {
       isValid: false,
-      reason: 'Venta sin monto asingando'
+      reason: 'Venta sin monto asingando o inválido'
     };
   }
 

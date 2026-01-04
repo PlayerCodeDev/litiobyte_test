@@ -9,13 +9,13 @@
  */
 export const normalizeAmount = ( amount ) => {
   if (amount === null || amount === undefined || amount === '' ) {
-    throw new Error('La venta no tiene un monto asignado');
+    return null;
   }
 
   const numericAmount = Number(amount);
 
   if (Number.isNaN(numericAmount)) {
-    throw new Error(`El monto de la venta es inválido: ${amount}`);
+    return null;
   }
 
   return Math.abs(amount);

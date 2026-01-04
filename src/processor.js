@@ -44,6 +44,7 @@ export const processSales = ( sales ) => {
 
   return {
     validSales,
+    discardedCount: sales.length - validSales.length,
     discardReasons,
   };
 }
