@@ -4,8 +4,8 @@ import { writeFileOutputData } from './fileWriter.js';
 
 const main = async () => {
   const data = await readJsonFile();
-  const validSales = processSales(data);
-  await writeFileOutputData(validSales);
+  const processResult = processSales(data);
+  await writeFileOutputData(processResult.discardReasons);
 }
 
 main();

@@ -8,7 +8,7 @@
  * @throws Si el monto de la venta es nulo, está vacío o es inválido
  */
 export const normalizeAmount = ( amount ) => {
-  if (amount === null || amount === undefined || amount === '') {
+  if (amount === null || amount === undefined || amount === '' ) {
     throw new Error('La venta no tiene un monto asignado');
   }
 

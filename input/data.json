@@ -17,7 +17,7 @@
     "currency": "EURO",
     "date": "2024-02-15"
   },
-  { "order_id": "G7", "amount": 750, "currency": "USD", "date": "15-02-2024" },
+  { "order_id": "", "amount": 750, "currency": "USD", "date": "15-02-2024" },
   { "order_id": "H8", "amount": -50, "currency": "clp", "date": "2024/02/18" },
   { "order_id": "I9", "amount": "12ab", "currency": "usd", "date": null },
 
