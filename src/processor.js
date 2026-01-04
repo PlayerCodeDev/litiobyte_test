@@ -1,4 +1,5 @@
 import { normalizeAmount } from '../normalizes/amount.js';
+import { normalizeCurrency } from '../normalizes/currency.js';
 import { normalizeDate } from '../normalizes/date.js';
 
 /**
@@ -15,7 +16,7 @@ export const processSales = ( sales ) => {
       const normalizedSales = {
         order_id: order.order_id,
         amount: normalizeAmount(order.amount),
-        currency: order.currency,
+        currency: normalizeCurrency(order.currency),
         date: normalizeDate(order.date),
       };
 
