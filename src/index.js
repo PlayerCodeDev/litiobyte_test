@@ -1,13 +1,11 @@
-import { readFile } from 'fs/promises';
+import { readJsonFile } from './fileReader.js';
+import { processSales } from './processor.js';
+import { writeFileOutputData } from './fileWriter.js';
 
 const main = async () => {
-  try {
-    const json = await readFile('./input/data.json', 'utf-8');
-    const data = JSON.parse(json);
-    console.log(data);
-  } catch (err) {
-    console.error('Error', err.message);
-  }
+  const data = await readJsonFile();
+  const validSales = processSales(data);
+  await writeFileOutputData(validSales);
 }
 
 main();
