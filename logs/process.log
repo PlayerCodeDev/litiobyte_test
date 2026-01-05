@@ -1,0 +1,14 @@
+[2026-01-05T00:16:17.329Z] [INFO] Iniciando el procesado de datos.
+[2026-01-05T00:16:17.331Z] [INFO] Datos obtenidos desde el archivo.
+[2026-01-05T00:16:17.332Z] [INFO] Procesando el registro de venta | data={"order_id":"A1","amount":"1000","currency":"CLP","date":"2026-01-10"}
+[2026-01-05T00:16:17.331Z] [INFO] Procesando el registro de venta | data={"order_id":"A1","amount":"1000","currency":"CLP","date":"2026-01-10"}
+[2026-01-05T00:16:17.332Z] [INFO] Procesando el registro de venta | data={"order_id":"A2","amount":1000,"currency":"CLP","date":"10-01-2026"}
+[2026-01-05T00:16:17.332Z] [INFO] Procesando el registro de venta | data={"order_id":"A3","amount":1000,"currency":"","date":"12-01-2026"}
+[2026-01-05T00:16:17.332Z] [WARNING] Venta sin monto asingando o inválido | data={"order_id":"A3","amount":"","currency":"CLP","date":"12-01-2026"}
+[2026-01-05T00:16:17.332Z] [INFO] Procesando el registro de venta | data={"order_id":"","amount":1000,"currency":"CLP","date":"12-01-2026"}
+[2026-01-05T00:16:17.332Z] [INFO] Procesando el registro de venta | data={"order_id":"A3","amount":"","currency":"CLP","date":"12-01-2026"}
+[2026-01-05T00:16:17.332Z] [WARNING] Venta sin monto asingando o inválido | data={"order_id":"A4","amount":"102h","currency":"CLP","date":"12-01-2026"}
+[2026-01-05T00:16:17.332Z] [INFO] Procesando el registro de venta | data={"order_id":"A4","amount":"102h","currency":"CLP","date":"12-01-2026"}
+[2026-01-05T00:16:17.333Z] [WARNING] Registro duplicado | data={"order_id":"A1","amount":1000,"currency":"CLP","date":"2026-01-10"}
+[2026-01-05T00:16:17.332Z] [WARNING] Identificador de la venta faltante o inválida | data={"order_id":"","amount":1000,"currency":"CLP","date":"12-01-2026"}
+[2026-01-05T00:16:17.335Z] [INFO] Proceso terminado con éxito.

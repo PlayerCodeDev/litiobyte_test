@@ -1,3 +1,5 @@
+import { writeLog } from './fileWriter.js';
+
 /**
  * Eliminar registros de ventas duplicadas.
  * 
@@ -24,6 +26,7 @@ export const deduplicateSales = ( sales ) => {
 
     if (uniqueOrdersMap.has(keys)) {
       duplicatedCount++;
+      writeLog('WARNING', 'Registro duplicado', order);
       continue;
     }
 
